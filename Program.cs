@@ -91,7 +91,7 @@ namespace AddressBook
             {
                 get
                 {
-                    return $"{FirstName} + {LastName}";
+                    return $"{FirstName} {LastName}";
                 }
             }
             public string Email { get; set; }
